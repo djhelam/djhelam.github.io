@@ -1,0 +1,118 @@
+/* styles.css */
+.site-title {
+    text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #E5EDF3;
+    color: #000000 ;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center; /* Center align the navigation items on small screens */
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px; /* Add space around each navigation item */
+}
+
+nav ul li a {
+    color: #000000 ;
+    text-decoration: none;
+}
+
+section {
+    padding: 0px 0;
+}
+
+footer {
+    background-color: #E5EDF3;
+    color: #000000 ;
+    text-align: center;
+    padding: 20px 0;
+}
+* styles.css */
+
+/* Increase line spacing for all paragraphs */
+p {
+    line-height: 1.5; /* Adjust the value to increase or decrease line spacing */
+}
+
+/* Increase line spacing for specific elements */
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.2; /* Adjust the value to increase or decrease line spacing */
+}
+
+/* Increase line spacing for the entire document */
+body {
+    line-height: 1.6; /* Adjust the value to increase or decrease line spacing */
+}
+
+/* Additional CSS for social icons */
+        .social-icons {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center; /* Center vertically */
+        }
+
+        .social-icons li {
+            margin: 0 10px;
+        }
+
+        .social-icons a i {
+            font-size: 36px;
+            color: #1DA1F2; /* Twitter blue */
+        }
+
+        /* Adjust individual icon colors if necessary */
+        .social-icons a i.fa-google {
+            color: #DB4437; /* Google red */
+            font-size: 48px; /* Increase size for Google Scholar */
+        }
+
+        .social-icons a i.fa-github {
+            color: #333; /* GitHub black */
+        }
+
+        .social-icons a i.fa-graduation-cap {
+            color: #4285F4; /* Google Scholar blue */
+        }
+
+                /* Additional CSS for image captions */
+        figure {
+            margin: 0;
+            text-align: center;
+            display: block; /* Ensure figure is a block-level element */
+            float: left;
+        }
+
+        figcaption {
+            font-style: italic;
+            font-size: 14px;
+            margin-top: 5px; /* Add some space between the image and caption */
+            text-align: left; /* Align the caption to the left */
+        }
